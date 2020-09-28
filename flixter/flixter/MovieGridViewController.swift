@@ -1,13 +1,13 @@
 //
-//  MovieDetailsViewController.swift
+//  MovieGridViewController.swift
 //  flixter
 //
-//  Created by Shahid on 9/27/20.
+//  Created by Shahid on 9/28/20.
 //
 
 import UIKit
 
-class MovieDetailsViewController: UIViewController {
+class MovieGridViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
