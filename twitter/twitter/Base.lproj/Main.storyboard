@@ -21,7 +21,7 @@
                                 <rect key="frame" x="62.5" y="411.5" width="289" height="73"/>
                                 <color key="backgroundColor" red="1" green="0.64587801357177499" blue="0.53033752860246253" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="289" id="Ojb-W2-hcs"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="289" id="Ojb-W2-hcs"/>
                                     <constraint firstAttribute="height" constant="73" id="h77-xV-ZpF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
