@@ -4,7 +4,6 @@
 //
 //  Created by Shahid on 10/9/20.
 //  Copyright © 2020 Dan. All rights reserved.
-//
 
 import UIKit
 
@@ -17,11 +16,14 @@ class HomeTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadTweets()
-        
         myRefreshControl.addTarget(self, action: #selector(loadTweets) , for: .valueChanged)
         tableView.refreshControl = myRefreshControl
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        loadTweets()
     }
     
     @objc func loadTweets() {
@@ -93,9 +95,11 @@ class HomeTableViewController: UITableViewController {
             cell.profileImageView.image = UIImage (data: imageData)
         }
         
+        cell.setFavorite(isFavorited: tweetArray[indexPath.row]["favorited"] as! Bool)
+        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int
+        cell.setRetweeted(tweetArray[indexPath.row]["retweeted"] as! Bool)
         return cell
     }
-    
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if indexPath.row + 1 == tweetArray.count {

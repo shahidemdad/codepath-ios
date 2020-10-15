@@ -40,10 +40,7 @@ class LoginViewController: UIViewController {
             print("Log In Failed!")
         })
         
-        
-        
-        
-        print("button is working")
+        print("login button is working")
     }
     
 
