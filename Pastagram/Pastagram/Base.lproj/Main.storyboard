@@ -148,7 +148,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="521.73913043478262" y="1541.5178571428571"/>
+            <point key="canvasLocation" x="1431.8840579710145" y="1541.5178571428571"/>
         </scene>
         <!--Feed View Controller-->
         <scene sceneID="Krq-eL-fnz">
@@ -176,14 +176,14 @@
                                                         <constraint firstAttribute="width" secondItem="r9I-cx-i46" secondAttribute="height" multiplier="398:389" id="9Wb-qd-YfY"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" misplaced="YES" text="shahid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mf-Pi-6vr">
-                                                    <rect key="frame" x="20" y="405" width="51" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="shahid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mf-Pi-6vr">
+                                                    <rect key="frame" x="14" y="405" width="51" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="the caption will be shown here!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdT-V7-PIh">
-                                                    <rect key="frame" x="79" y="405" width="339" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the caption will be shown here!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdT-V7-PIh">
+                                                    <rect key="frame" x="73" y="405" width="333" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -195,6 +195,7 @@
                                                 <constraint firstItem="r9I-cx-i46" firstAttribute="leading" secondItem="w3p-no-nYU" secondAttribute="leading" constant="8" id="AXb-mb-pPN"/>
                                                 <constraint firstAttribute="trailing" secondItem="hdT-V7-PIh" secondAttribute="trailing" constant="8" id="Khs-17-drT"/>
                                                 <constraint firstItem="hdT-V7-PIh" firstAttribute="top" secondItem="r9I-cx-i46" secondAttribute="bottom" constant="8" id="PoH-8T-GVe"/>
+                                                <constraint firstItem="hdT-V7-PIh" firstAttribute="centerY" secondItem="0Mf-Pi-6vr" secondAttribute="centerY" id="bHR-BR-MgK"/>
                                                 <constraint firstItem="0Mf-Pi-6vr" firstAttribute="leading" secondItem="w3p-no-nYU" secondAttribute="leading" constant="14" id="cl1-dJ-aLZ"/>
                                                 <constraint firstAttribute="trailing" secondItem="r9I-cx-i46" secondAttribute="trailing" constant="8" id="fFd-dG-HTL"/>
                                                 <constraint firstItem="hdT-V7-PIh" firstAttribute="leading" secondItem="0Mf-Pi-6vr" secondAttribute="trailing" constant="8" id="gVN-MN-Xt4"/>
@@ -219,7 +220,7 @@
                     <navigationItem key="navigationItem" id="6at-ez-Gcd">
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="MMk-KA-zQ8">
                             <connections>
-                                <segue destination="oxc-5t-NfG" kind="presentation" id="4Yn-G7-hAg"/>
+                                <segue destination="kGh-MM-4p0" kind="presentation" identifier="nav" id="Mqe-pR-rYO"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -248,6 +249,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uvF-qy-nuy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-275" y="821"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="e21-EO-8Sk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kGh-MM-4p0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0o7-X8-0yc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oxc-5t-NfG" kind="relationship" relationship="rootViewController" id="VQ9-0v-uUC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zHR-86-HbW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521.73913043478262" y="1541.5178571428571"/>
         </scene>
     </scenes>
     <resources>

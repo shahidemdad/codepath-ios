@@ -29,6 +29,13 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView.insertSubview(refreshControl, at: 0)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "nav"{
+            let vc = segue.destination as! UINavigationController
+            vc.modalPresentationStyle = .fullScreen
+        }
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
