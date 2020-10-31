@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -13,6 +14,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        
+        let parseConfig = ParseClientConfiguration {
+                $0.applicationId = "zut4KdVhXdSXLqUGeYdi0GmvEV4NM7ROidiQOgNH"
+                $0.clientKey = "znPmQmVlJ5vorefi5uxGXzDLCCcOn1TwsHppLYzi"
+                $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
+        
+        if PFUser.current() !=  nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationViewController =  main.instantiateViewController(identifier: "FeedNavigationController")
+            window?.rootViewController = feedNavigationViewController
+        }
+        
+        
+        
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
