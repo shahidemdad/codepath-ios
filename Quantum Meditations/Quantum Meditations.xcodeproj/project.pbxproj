@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85B9D44F0A730CE1F5F9A334 /* Pods_Quantum_Meditations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62E9AC1AF78F5442945893B /* Pods_Quantum_Meditations.framework */; };
+		F77E2B762571C2ED00569E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B752571C2ED00569E19 /* AppDelegate.swift */; };
+		F77E2B782571C2ED00569E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B772571C2ED00569E19 /* SceneDelegate.swift */; };
+		F77E2B7A2571C2ED00569E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B792571C2ED00569E19 /* ViewController.swift */; };
+		F77E2B7D2571C2ED00569E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77E2B7B2571C2ED00569E19 /* Main.storyboard */; };
+		F77E2B7F2571C2EF00569E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77E2B7E2571C2EF00569E19 /* Assets.xcassets */; };
+		F77E2B822571C2EF00569E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77E2B802571C2EF00569E19 /* LaunchScreen.storyboard */; };
+		F77E2B8F2571C87C00569E19 /* MusicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B8E2571C87C00569E19 /* MusicsTableViewController.swift */; };
+		F77E2B9E2572176300569E19 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B9D2572176300569E19 /* MusicCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B54C3406BD6E867C3C0E0374 /* Pods-Quantum Meditations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum Meditations.release.xcconfig"; path = "Target Support Files/Pods-Quantum Meditations/Pods-Quantum Meditations.release.xcconfig"; sourceTree = "<group>"; };
+		C62E9AC1AF78F5442945893B /* Pods_Quantum_Meditations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quantum_Meditations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16140346FD607EECBF8580B /* Pods-Quantum Meditations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum Meditations.debug.xcconfig"; path = "Target Support Files/Pods-Quantum Meditations/Pods-Quantum Meditations.debug.xcconfig"; sourceTree = "<group>"; };
+		F77E2B722571C2ED00569E19 /* Quantum Meditations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quantum Meditations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77E2B752571C2ED00569E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F77E2B772571C2ED00569E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F77E2B792571C2ED00569E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F77E2B7C2571C2ED00569E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77E2B7E2571C2EF00569E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77E2B812571C2EF00569E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77E2B832571C2EF00569E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77E2B8E2571C87C00569E19 /* MusicsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicsTableViewController.swift; sourceTree = "<group>"; };
+		F77E2B9D2572176300569E19 /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77E2B6F2571C2ED00569E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B9D44F0A730CE1F5F9A334 /* Pods_Quantum_Meditations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039113C2FDA142A3FAF20F93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F16140346FD607EECBF8580B /* Pods-Quantum Meditations.debug.xcconfig */,
+				B54C3406BD6E867C3C0E0374 /* Pods-Quantum Meditations.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		777DF3FC5853DA2C34388B2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C62E9AC1AF78F5442945893B /* Pods_Quantum_Meditations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F77E2B692571C2ED00569E19 = {
+			isa = PBXGroup;
+			children = (
+				F77E2B742571C2ED00569E19 /* Quantum Meditations */,
+				F77E2B732571C2ED00569E19 /* Products */,
+				039113C2FDA142A3FAF20F93 /* Pods */,
+				777DF3FC5853DA2C34388B2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F77E2B732571C2ED00569E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77E2B722571C2ED00569E19 /* Quantum Meditations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77E2B742571C2ED00569E19 /* Quantum Meditations */ = {
+			isa = PBXGroup;
+			children = (
+				F77E2B752571C2ED00569E19 /* AppDelegate.swift */,
+				F77E2B772571C2ED00569E19 /* SceneDelegate.swift */,
+				F77E2B792571C2ED00569E19 /* ViewController.swift */,
+				F77E2B7B2571C2ED00569E19 /* Main.storyboard */,
+				F77E2B7E2571C2EF00569E19 /* Assets.xcassets */,
+				F77E2B802571C2EF00569E19 /* LaunchScreen.storyboard */,
+				F77E2B832571C2EF00569E19 /* Info.plist */,
+				F77E2B8E2571C87C00569E19 /* MusicsTableViewController.swift */,
+				F77E2B9D2572176300569E19 /* MusicCell.swift */,
+			);
+			path = "Quantum Meditations";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77E2B712571C2ED00569E19 /* Quantum Meditations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77E2B862571C2EF00569E19 /* Build configuration list for PBXNativeTarget "Quantum Meditations" */;
+			buildPhases = (
+				CE6367D36CA194D13282695E /* [CP] Check Pods Manifest.lock */,
+				F77E2B6E2571C2ED00569E19 /* Sources */,
+				F77E2B6F2571C2ED00569E19 /* Frameworks */,
+				F77E2B702571C2ED00569E19 /* Resources */,
+				380491A7F417DE864CE4A819 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quantum Meditations";
+			productName = "Quantum Meditations";
+			productReference = F77E2B722571C2ED00569E19 /* Quantum Meditations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77E2B6A2571C2ED00569E19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F77E2B712571C2ED00569E19 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = F77E2B6D2571C2ED00569E19 /* Build configuration list for PBXProject "Quantum Meditations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77E2B692571C2ED00569E19;
+			productRefGroup = F77E2B732571C2ED00569E19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77E2B712571C2ED00569E19 /* Quantum Meditations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77E2B702571C2ED00569E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77E2B822571C2EF00569E19 /* LaunchScreen.storyboard in Resources */,
+				F77E2B7F2571C2EF00569E19 /* Assets.xcassets in Resources */,
+				F77E2B7D2571C2ED00569E19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		380491A7F417DE864CE4A819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quantum Meditations/Pods-Quantum Meditations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quantum Meditations/Pods-Quantum Meditations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quantum Meditations/Pods-Quantum Meditations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6367D36CA194D13282695E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quantum Meditations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77E2B6E2571C2ED00569E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77E2B9E2572176300569E19 /* MusicCell.swift in Sources */,
+				F77E2B7A2571C2ED00569E19 /* ViewController.swift in Sources */,
+				F77E2B8F2571C87C00569E19 /* MusicsTableViewController.swift in Sources */,
+				F77E2B762571C2ED00569E19 /* AppDelegate.swift in Sources */,
+				F77E2B782571C2ED00569E19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F77E2B7B2571C2ED00569E19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77E2B7C2571C2ED00569E19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77E2B802571C2EF00569E19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77E2B812571C2EF00569E19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77E2B842571C2EF00569E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77E2B852571C2EF00569E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77E2B872571C2EF00569E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16140346FD607EECBF8580B /* Pods-Quantum Meditations.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78L4WL6D9X;
+				INFOPLIST_FILE = "Quantum Meditations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quatummeditationsocietyusa.Quantum-Meditations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77E2B882571C2EF00569E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54C3406BD6E867C3C0E0374 /* Pods-Quantum Meditations.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78L4WL6D9X;
+				INFOPLIST_FILE = "Quantum Meditations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quatummeditationsocietyusa.Quantum-Meditations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77E2B6D2571C2ED00569E19 /* Build configuration list for PBXProject "Quantum Meditations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77E2B842571C2EF00569E19 /* Debug */,
+				F77E2B852571C2EF00569E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77E2B862571C2EF00569E19 /* Build configuration list for PBXNativeTarget "Quantum Meditations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77E2B872571C2EF00569E19 /* Debug */,
+				F77E2B882571C2EF00569E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77E2B6A2571C2ED00569E19 /* Project object */;
+}
