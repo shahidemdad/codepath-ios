@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		85B9D44F0A730CE1F5F9A334 /* Pods_Quantum_Meditations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62E9AC1AF78F5442945893B /* Pods_Quantum_Meditations.framework */; };
+		F744C63325730767008E382B /* MusicControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744C63225730767008E382B /* MusicControlViewController.swift */; };
 		F77E2B762571C2ED00569E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B752571C2ED00569E19 /* AppDelegate.swift */; };
 		F77E2B782571C2ED00569E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B772571C2ED00569E19 /* SceneDelegate.swift */; };
 		F77E2B7A2571C2ED00569E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B792571C2ED00569E19 /* ViewController.swift */; };
 		F77E2B7D2571C2ED00569E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77E2B7B2571C2ED00569E19 /* Main.storyboard */; };
 		F77E2B7F2571C2EF00569E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77E2B7E2571C2EF00569E19 /* Assets.xcassets */; };
 		F77E2B822571C2EF00569E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77E2B802571C2EF00569E19 /* LaunchScreen.storyboard */; };
-		F77E2B8F2571C87C00569E19 /* MusicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B8E2571C87C00569E19 /* MusicsTableViewController.swift */; };
+		F77E2B8F2571C87C00569E19 /* MusicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B8E2571C87C00569E19 /* MusicsViewController.swift */; };
 		F77E2B9E2572176300569E19 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2B9D2572176300569E19 /* MusicCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		B54C3406BD6E867C3C0E0374 /* Pods-Quantum Meditations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum Meditations.release.xcconfig"; path = "Target Support Files/Pods-Quantum Meditations/Pods-Quantum Meditations.release.xcconfig"; sourceTree = "<group>"; };
 		C62E9AC1AF78F5442945893B /* Pods_Quantum_Meditations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quantum_Meditations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16140346FD607EECBF8580B /* Pods-Quantum Meditations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum Meditations.debug.xcconfig"; path = "Target Support Files/Pods-Quantum Meditations/Pods-Quantum Meditations.debug.xcconfig"; sourceTree = "<group>"; };
+		F744C63225730767008E382B /* MusicControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicControlViewController.swift; sourceTree = "<group>"; };
 		F77E2B722571C2ED00569E19 /* Quantum Meditations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quantum Meditations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77E2B752571C2ED00569E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F77E2B772571C2ED00569E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +32,7 @@
 		F77E2B7E2571C2EF00569E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77E2B812571C2EF00569E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F77E2B832571C2EF00569E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F77E2B8E2571C87C00569E19 /* MusicsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicsTableViewController.swift; sourceTree = "<group>"; };
+		F77E2B8E2571C87C00569E19 /* MusicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicsViewController.swift; sourceTree = "<group>"; };
 		F77E2B9D2572176300569E19 /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,8 +93,9 @@
 				F77E2B7E2571C2EF00569E19 /* Assets.xcassets */,
 				F77E2B802571C2EF00569E19 /* LaunchScreen.storyboard */,
 				F77E2B832571C2EF00569E19 /* Info.plist */,
-				F77E2B8E2571C87C00569E19 /* MusicsTableViewController.swift */,
+				F77E2B8E2571C87C00569E19 /* MusicsViewController.swift */,
 				F77E2B9D2572176300569E19 /* MusicCell.swift */,
+				F744C63225730767008E382B /* MusicControlViewController.swift */,
 			);
 			path = "Quantum Meditations";
 			sourceTree = "<group>";
@@ -211,9 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F744C63325730767008E382B /* MusicControlViewController.swift in Sources */,
 				F77E2B9E2572176300569E19 /* MusicCell.swift in Sources */,
 				F77E2B7A2571C2ED00569E19 /* ViewController.swift in Sources */,
-				F77E2B8F2571C87C00569E19 /* MusicsTableViewController.swift in Sources */,
+				F77E2B8F2571C87C00569E19 /* MusicsViewController.swift in Sources */,
 				F77E2B762571C2ED00569E19 /* AppDelegate.swift in Sources */,
 				F77E2B782571C2ED00569E19 /* SceneDelegate.swift in Sources */,
 			);

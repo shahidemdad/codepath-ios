@@ -1,20 +1,19 @@
 //
-//  MusicCell.swift
+//  MusicControlViewController.swift
 //  Quantum Meditations
 //
 //  Created by Shahid on 11/28/20.
 //
 
 import UIKit
+import Parse
 import AVKit
 import AVFoundation
 
-class MusicCell: UITableViewCell {
-
+class MusicControlViewController: UIViewController {
+    
     @IBOutlet weak var photoView: UIImageView!
-    
     @IBOutlet weak var musicnameLabel: UILabel!
-    
     @IBOutlet weak var musicButton: UIButton!
     
     var musicplaying = false
@@ -45,15 +44,33 @@ class MusicCell: UITableViewCell {
         }
     }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+    
+    var music : PFObject!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        musicnameLabel.text = music["music_name"] as? string
+        
+        var selectedmusic = music["music_file"] as! PFFileObject
+        var urlString = selectedmusic.url!
+        var url = URL(string: urlString)!
+        selectedmusic = url
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+        //print(music["music_name"])
 
-        // Configure the view for the selected state
+        // Do any additional setup after loading the view.
     }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
